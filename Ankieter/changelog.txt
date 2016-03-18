@@ -1,0 +1,13 @@
+0.00.01:
+Pierwsza wersja, start aplikacji
+-----------------------------------------------------------------------------------------------
+0.01.01:
+*Naprawa b³êdu z mo¿liwoœci¹ g³osowania kilka razy na jedn¹ ankietê
+*Dodano stronê Aktywne ankiety
+*Po zalogowaniu u¿ytkownik zostanie przeniesony do aktywnych ankiet
+*Usuniêto info o autorze ze strony g³ównej
+*Poprawiono generacjê linków - zast¹piono sztywny localhost na 
+ <%=request.getServerName()+request.getContextPath()%>
+*Zast¹piono nag³ówek wpisany na ka¿d¹ stron¹ dynamicznym include nag³ówka z nowego pliku jsp
+*Dodanie pliku z changelog do projektu eclipse (ale nie do WebContent)
+-----------------------------------------------------------------------------------------------
